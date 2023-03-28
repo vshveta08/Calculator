@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-color: rgb(234, 247, 255);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(backgroundImg.jpg);
+    background-attachment: fixed; 
+    background-size: cover;  
+    background-position: center;
+}
+.container{
+    padding: 35px 24px 35px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    box-shadow: 2px 2px 3px rgb(194, 194, 194),
+    inset 4px 4px 12px rgb(91, 128, 144),
+    inset -4px -5px 12px rgb(254, 255, 255);;
+    border-radius: 10px;
+
+    backdrop-filter: blur(6px);
+}
+.row{
+    display: flex;
+    gap: 15px;
+}
+input{
+    height: 55px;
+    width: 92%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px grey;
+    /* inset -2px 2px 5px rgb(190, 190, 190);; */
+    border-radius: 5px;
+    text-align: end;
+}
+input:focus{
+    outline: none;
+}
+button{
+    /* padding: 19px; */
+    height: 50px;
+    width: 50px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(143, 188, 213);
+    /* background-color: rgb(197, 223, 255); */
+    box-shadow: 2px 2px 3px rgb(116, 116, 116),
+    inset 3px 3px 5px white,
+    inset -2px -2px 3px rgb(151, 151, 151);
+    color: white;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+button:active{
+    box-shadow: 2px 2px 3px rgb(116, 116, 116),
+    inset 2px 2px 5px rgb(151, 151, 151),
+    inset -2px -2px 3px white; 
+}
+#row5 button{
+    height: 50px;
+    width: 71.5px;
+}
