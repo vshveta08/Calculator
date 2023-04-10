@@ -1,6 +1,6 @@
 # Calculator
 
-This is a calcultor that I have made using HTML, CSS & JS.
+This is a calculator that I have made using HTML, CSS & JS.
 
 Interface of the calcultor -
 
